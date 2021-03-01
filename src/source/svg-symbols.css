@@ -1,79 +1,79 @@
-.icon_list_back2 {
+.icon-back {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_close_1 {
+.icon-close {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_drawer_open {
+.icon-forward {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_fewer1 {
+.icon-list-fold-solid {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_fewer2 {
+.icon-list-fold {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_forward {
+.icon-list-menu {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_loading {
+.icon-list-open-solid {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_multiselect_small {
+.icon-list-open {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_multiselect_un_small {
+.icon-loading {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_open1 {
+.icon-refresh {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_open2 {
+.icon-search {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_refresh {
+.icon-selected {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_search {
+.icon-settings {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_sharenew {
+.icon-share {
   width: 128px;
   height: 128px;
 }
 
-.icon_list_trash {
+.icon-trash {
   width: 128px;
   height: 128px;
 }
 
-.icon_nav_settings {
+.icon-unselected {
   width: 128px;
   height: 128px;
 }

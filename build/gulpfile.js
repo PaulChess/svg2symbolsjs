@@ -3,6 +3,7 @@ const svgmin = require('gulp-svgmin');
 const svgSymbols = require('gulp-svg-symbols');
 const svgSymbols2js = require('gulp-svg-symbols2js');
 const uglify = require('gulp-uglify');
+const replace = require('gulp-replace');
 const fs = require('fs-extra');
 const { join } = require('path');
 
@@ -32,4 +33,12 @@ gulp.task('minifySrc', (done) => {
     done()
 });
 
-gulp.task('default', gulp.series('exportSvgSymbols', 'minifySrc'));
+gulp.task('removeFill', (done) => {
+  return gulp
+    .src(`${srcDir}/out/svg-symbols.js`)
+    .pipe(replace('fill="#000"', ''))
+    .pipe(gulp.dest(`${srcDir}/out2`))
+    done()
+})
+
+gulp.task('default', gulp.series('exportSvgSymbols', 'minifySrc', 'removeFill'));
