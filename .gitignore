@@ -1,0 +1,6 @@
+node_modules
+assets/svg
+src/*.ttf
+src/*.woff
+src/*.woff2
+node_modules

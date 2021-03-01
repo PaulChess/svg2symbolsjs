@@ -1,0 +1,41 @@
+{
+  "name": "svg2symbolsjs",
+  "version": "1.0.0",
+  "description": "svg批量处理生成svg-symbols.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd build && node export && gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulChess/svg2symbolsjs.git"
+  },
+  "keywords": [
+    "svg",
+    "symbolsjs"
+  ],
+  "devDependencies": {
+    "fast-glob": "^3.2.2",
+    "fe-cdn": "0.0.9",
+    "fs-extra": "^9.0.1",
+    "gulp": "^4.0.2",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-svg-symbols": "^3.2.3",
+    "gulp-svg-symbols2js": "^1.0.1",
+    "gulp-svgmin": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "md5-file": "^5.0.0",
+    "release-it": "^13.6.2",
+    "shelljs": "^0.8.4",
+    "svgo": "1.2.2"
+  },
+  "author": "shenjiaqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulChess/svg2symbolsjs/issues"
+  },
+  "homepage": "https://github.com/PaulChess/svg2symbolsjs#readme"
+}
